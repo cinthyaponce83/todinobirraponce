@@ -1,0 +1,33 @@
+main{
+    width: 90%;
+    margin: 0 auto;
+    &.parrafo {
+    font-family: $fuente;
+    font-weight: bold;
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+    margin: 2% 0 2% 0;
+    & h1 {
+        word-spacing: 10px;
+        font-family: $fuenteTitulo;
+        color: black;
+        letter-spacing: 2rem;
+        font-weight: 900;
+        font-size: 1rem;
+        margin-top: 2px;
+        margin-bottom: 2px;
+        text-align: center;
+        & h2 {
+        font-size: 2rem;
+        font-family: $fuenteTitulo;
+        font-weight: 900;
+        letter-spacing: 1rem; 
+        word-spacing: 5px;
+        margin-top: 2px;
+        margin-bottom: 2px;
+        }
+    }
+}
+  
+       

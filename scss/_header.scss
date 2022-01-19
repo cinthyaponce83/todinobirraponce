@@ -1,0 +1,40 @@
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    &.logo {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    width: 50%;
+    & .img {
+    width: 20%;
+    margin-top: 1rem;
+    & nav {
+        height: 100%;
+        width: 100%;
+        & ul {
+            list-style-type: none;
+            background-size: auto;
+            height: 60px;
+            font-family: $fuente;
+            font-weight: bold;
+            display: flex;
+            justify-content: space-evenly;
+            margin-bottom: 1%;
+            margin-top: 2%;
+            & li {
+                display: inline-block;
+                font-size: 25px;    
+            & a {
+                text-decoration: none;
+                color: white;
+
+            }
+        }
+    }
+}
+    }
+}
+}
+        

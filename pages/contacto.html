@@ -1,130 +1,103 @@
 <!DOCTYPE html>
 <html lang="es">
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/estilos.css">
-    <title>formulario</title>
-</head>
-
-<body>
-    <div class=body>
-
-    </div>
-
-    <nav>
-        <div class=secciones>
-
-            <a href="/index.html">INICIO</a></li>
-            <a href="/pages/tienda.html">TIENDA</a></li>
-            <a href="/pages/nosotros.html">NOSOTROS</a></li>
-        </div>
-
-    </nav <div class="body">
-
-    <header>
-
-
-        <div class="logo">
-            <img src="/css/img/toro.png" alt="toro">
-        </div>
-
-        <style>
-            .logo {
-                display: flex;
-                justify-content: center;
-                margin-left: 38%;
-                height: 200px;
-                width: 200px;
-            }
-        </style>
-
-        <div class="titulo">
-            <h1>birra artesanal</h1>
-            <h2>TODINO</h2>
-        </div>
-        <style>
-            .titulo {
-                text-align: center;
-                margin-left: 50%;
-            }
-        </style>
-
-    </header>
+     <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+        <link rel="stylesheet" href="../css/estilos.css">
+        <div class="container"></div>
+        <title>formulario</title>
+    </head>
+<body>    
+        <header>
+          <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+            <!-- Brand -->
+            <a class="navbar-brand" href="/index.html"><img src="/css/img/toro.png" alt="toro" height="60px" width="90px"></a>
+          
+            <!-- Toggler/collapsibe Button -->
+            <buttonclass="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+              <span class="navbar-toggler-icon"></span>
+            </buttonclass=>
+          
+            <!-- Navbar links -->
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="/pages/tienda.html">TIENDA</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="/pages/nosotros.html">NOSOTROS</a>
+                </li>
+                </ul>
+            </div>
+          </nav>      
+        </header>
+          
+    
     <main>
-
-        <h1>CONTACTO</h1>
-
-        <style>
-            .secciones {
-                display: flex;
-                justify-content: space-evenly;
-                list-style: none;
-                background-color: gold;
-                height: 100%;
-                font-size: 30px;
-                color: black;
-                margin-bottom: 20%;
-
-            }
-        </style>
-        <div class="formulario">
-            <form action="enviar.php" method="post" enctype="application/x-www-form-urlencoded">
-
-                nombre<input type="text" required><br>
-                contraseña<input type="password"><br>
-                email<input type="email"><br>
-                telefono<input type="number"><br>
-                fecha de nacimiento <input type="date"><br>
-                <textarea name="areadetexto" id="" cols="30" rows="5" placehoder="escribe tu comentario"></textarea>
-                <br>
-                <input type="submit" value="enviar">
-        </div>
-        <style>
-            .formulario {
-                margin-top: 20%;
-                margin-left: 40%;
-                size-adjust: 50%;
-                te
-            }
-        </style>
-    </main>
-
+      <div class="container">
+       <h1>CONTACTO</h1>
+        <div class="row">
+        <div class="col-sm-12">        
+          <form action="/action_page.php">
+            <div class="form-group">
+              <label for="Nombre">Nombre:</label>
+              <input type="nombre" class="form-control" placeholder="Nombre" id="Nombre">
+            </div>
+            <div class="form-group">
+              <label for="email">Email:</label>
+              <input type="email" class="form-control" placeholder="Enter email" id="email">
+            </div>
+            <div class="form-group">
+              <label for="comment">Contanos tu experiencia:</label>
+              <textarea class="form-control" rows="5" id="comment"></textarea>
+            </div>
+            <div class="row">
+              <legend class="col-form-label col-sm-2 pt-0">Variedad Favorita</legend>
+              <div class="col-sm-10">
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+                  <label class="form-check-label" for="gridRadios1">
+                    Roja
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+                  <label class="form-check-label" for="gridRadios2">
+                    Negra
+                  </label>
+                </div>
+                <div class="form-check disabled">
+                  <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios3" value="option3">
+                  <label class="form-check-label" for="gridRadios3">
+                    Rubia
+                  </label>
+                </div>
+              
+              </div>
+            </div>
+          </fieldset>
+          <div class="form-group row">
+            <div class="col-sm-10">
+              <button type="submit" class="btn btn-dark">Enviar</button>
+            </div>
+          </div>
+        </form>
+    </style>
+</div>
+</div>
+</div>
+        </main>
     <footer>
-
-
-
         <div class="footerfoto">
             <img src="/css/img/insta.png" alt="">
-        </div>
-        <style>
-            .body {
-
-                background-image: url("/css/img/madera.jpg");
-                background-size: cover;
-
-
-
-            }
-
-
-            .footerfoto {
-                display: flex;
-                justify-content: center;
-                margin-left: 50%;
-                margin-right: 50%;
-                margin-top: 40%;
-
-                height: 50px;
-                width: 50px;
-
-            }
-        </style>
-
-
+        </div>        
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
 </body>
 
 </html>
