@@ -19,9 +19,11 @@ align-items:center;
 width: 50%;
 }
 .imgLogo{
+@extend .logo;
 width: 20%;
 margin-top: 1rem;
 }
+
 h1{
 word-spacing: 10px;
 font-family: Arial, Helvetica, sans-serif;
@@ -171,6 +173,7 @@ font-size: 1rem;
 letter-spacing: 1px;
 word-spacing: 1px;
 }
+/*
 .contenedor{
 margin-left: 10px;
 margin-top: 2%;
@@ -183,6 +186,7 @@ grid-template-rows: auto;
 grid-gap: 1px;
 margin-bottom: 10px; 
 }
+*/
 .footerfoto {
 display: flex;
 justify-content: center;
@@ -201,6 +205,7 @@ font-size: 1.5rem;
 h2{
 font-size: 3rem;
 }
+/*
 .contenedor{
 margin-top: 2%;
 display: grid;
@@ -216,8 +221,10 @@ margin-bottom: 20px;
 width: 80%;
 }    
 }
+*/
 @media only screen and (min-width: 1024px){ 
-.contenedor{
+/*
+  .contenedor{
 margin-top: 2%;
 display: grid;
 grid-template-areas:
@@ -231,6 +238,7 @@ margin-bottom: 10px;
 .item{
 width: 80%;
 }
+*/
 .parrafo p{
 font-size: 1.3rem;
 letter-spacing: 1px;
@@ -277,5 +285,6 @@ width: 60px;
 nav ul li {
   display: inline-block;
   font-size: 2rem;
+}
 }
 }
