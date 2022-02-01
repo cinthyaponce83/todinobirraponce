@@ -5,7 +5,7 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="Tenemos distintas variedades disponibles cada mes, ya tenés tu variedad favorita?">
+        <meta name="description" content="Tenemos distintas variedades disponibles cada mes, ¿ya tenés tu variedad favorita?">
         <meta name="keywords" content="cerveza, artesanal, birra, todino, italia, craft, beer, mendoza, beluchi, guitarra, jarilla, lúpulo, montaña">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
         <link rel="stylesheet" href="../css/estilos.css">
@@ -13,57 +13,58 @@
         <title>tienda</title>
         </head>
 <body>
-    <header>
-        <nav class="navbar navbar-expand-md bg-dark navbar-dark">
-            <!-- Brand -->
-            <a class="navbar-brand" href="/index.html"><img src="/css/img/toro.png" alt="toro" height="60px" width="90px"></a>
-          
-            <!-- Toggler/collapsibe Button -->
-            <buttonclass="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+  <header>
+    <div class="logo">
+   <a class="nav-link active" href="/index.html">  
+   <img class="img-fluid" src="/css/img/toro.png" alt="toro"></a>
+     <h1>birra artesanal</h1>
+      <h2>TODINO</h2>
+    </div>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+              aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
-            </buttonclass=>
-          
-            <!-- Navbar links -->
-            <div class="collapse navbar-collapse" id="collapsibleNavbar">
-              <ul class="navbar-nav">
-                <li class="nav-item">
-                  <a class="nav-link" href="/pages/nosotros.html">NOSOTROS</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="/pages/contacto.html">CONTACTO</a>
-                </li>
-                </ul>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+                <a class="nav-link active" href="/index.html">INICIO<span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="./nosotros.html">NOSOTROS</a>
+                <a class="nav-link" href="./contacto.html">CONTACTO</a>
+              </div>
             </div>
-          </nav> 
-    </header>
+        </nav>
+  </header>
 <main>
-<div class="parrafo">
-  <h1>TIENDA</h1>
-  
-  <div class="col-xs-12 col-sm-6 col-md-4 row-lg-2">
-    <img src="/css/img/redbeer.jpg" alt="brindis" height="100px" width="200px" class="rounded-circle">
- <h2 class="text-left">ROJA</h2>
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde impedit, saepe porro eos ad consequuntur
-provident
-</p>
-</div>
-<div class="col-xs-12 col-sm-6 col-md-4 offset-lg-8">
-  <img src="/css/img/texture3.jpg" alt="brindis" height="100px" width="200px" class="rounded-circle">
-<h2 class="text-rigth">IPA</h2>
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde impedit, saepe porro eos ad consequuntur
-provident
-</p>
+<h1>TIENDA</h1> 
+<div class="container">
+<div class="row">
+<div class="col-xs-12 col-sm-6 col-md-4">
+  <h1 class="text-center">Rubia de Trigo</h1>
+  <img src="/css/img/receta-cerveza-hefeweizen.jpg" alt="cerveza de trigo" class="img-fluid">
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, reiciendis,
+     tempore illum, maxime asperiores ipsum assumenda adipisci similique unde perferendis molestiae sint ullam repellat quibusdam officia dolorem nam fugit consectetur!</p>
+     <button type="submit" class="btn btn-dark">COMPRAR</button>
 </div>
 <div class="col-xs-12 col-sm-6 col-md-4">
-  <img src="/css/img/toasted.jpg.crdownload" alt="brindis" height="100px" width="200px" class="rounded-circle">
-<h2 class="text-left">PORTER</h2>
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde impedit, saepe porro eos ad consequuntur
-provident</p>
+  <h1 class="text-center">Roja</h1>
+  <img src="/css/img/red beer.jpg" alt="cerveza roja" class="img-fluid">
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, reiciendis,
+     tempore illum, maxime asperiores ipsum assumenda adipisci similique unde perferendis molestiae sint ullam repellat quibusdam officia dolorem nam fugit consectetur!</p>
+     <button type="submit" class="btn btn-dark">COMPRAR</button>
+</div>
+<div class="col-xs-12 col-sm-6 col-md-4">
+  <h1 class="text-center">Negra</h1>
+  <img src="/css/img/porter.jpg" alt="cerveza porter" class="img-fluid">
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, reiciendis,
+     tempore illum, maxime asperiores ipsum assumenda adipisci similique unde perferendis molestiae sint ullam repellat quibusdam officia dolorem nam fugit consectetur!</p>
+     <button type="submit" class="btn btn-dark">COMPRAR</button>
+</div>
 </div>
 </main>
 <footer>
 <div class="footerfoto">
 <img src="/css/img/insta.png" alt="redessociales">
+</div>
 </div>
 </footer>
 <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>

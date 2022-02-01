@@ -1,15 +1,19 @@
-main{
-    width: 90%;
-    margin: 0 auto;
-    &.parrafo {
+    .main{
+    &container {
+    margin-top: 100%;
+    }
+  
+    
+    &parrafo {
     font-family: map-get($estiloParrafo,$fuente);
+    background-color: black;
     font-weight: map-get($estiloParrafo, 900);
     font-size: map-get($estiloParrafo, 1.5rem);
     letter-spacing: map-get($estiloParrafo, 2rem);
     word-spacing: 5px;
-    margin: map-get ($estiloParrafo, 2px);
-    & h1 {
-        word-spacing: 10px;
+    margin: map-get($estiloParrafo, 2px);
+    &h1 {
+        word-spacing: 2rem;
         font-family: map-get($estiloParrafo, $fuenteTitulo);
         color: map-get($estiloParrafo,rgb(0, 0, 0));
         letter-spacing: map-get($estiloParrafo, 2rem);
@@ -18,7 +22,7 @@ main{
         margin-top: map-get($estiloParrafo, 2px);
         margin-bottom: map-get($estiloParrafo, 2px);
         text-align: map-get($estiloParrafo, center);
-        & h2 {
+        &h2 {
         font-size: map-get($estiloParrafo, 2rem);
         font-family: map-get($estiloParrafo, $fuenteTitulo);
         font-weight: map-get($estiloParrafo, 900);
