@@ -2,12 +2,12 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
-    &.logo {
+    & .logo {
     display: flex;
     flex-direction: column;
     align-items:center;
 }
-    &.imgLogo{ 
+    & .imgLogo { 
     @extend .logo;    
     widht: 10%;
     margin-top: 1rem
