@@ -1,0 +1,55 @@
+@media only screen and (min-width: 481px) {
+    footer{
+        & .logoFooter {
+            & img {
+                width: 50%;
+            }
+        }
+    }
+ 
+}
+@media only screen and (min-width: 769px) {
+    header {
+        & .logo {
+        & .imgLogo{   
+            width: 20%;
+        }
+        }
+    }
+    footer{
+        & .textoFooter {
+            & p {
+                font-size: 1.5rem;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    header {
+        & .logo {
+        & .imgLogo{   
+            width: 15%;
+        }
+        }
+    }
+    .container {
+             & p {
+            font-size: 1.5rem;
+        }
+    }
+}
+@media only screen and (min-width: 1224px) {
+    .container {
+             & p {
+            font-size: 1.5rem;
+        }
+    }
+    footer{
+        & .logoFooter {
+            & img {
+                width: 30%;
+            }
+        }
+    }
+}
