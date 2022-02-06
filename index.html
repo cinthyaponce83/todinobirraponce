@@ -1,8 +1,7 @@
 <!DOCTYPE html>
-<githtml lang="es">
-  <meta charset="UTF-8">
-
+<html lang="es">  
   <head>
+    <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Explorá los sabores de nuestras cervezas, hechas con antiguas recetas">
@@ -10,8 +9,10 @@
       content="cerveza, artesanal, birra, todino, italia, craft, beer, mendoza, beluchi, guitarra, jarilla, lúpulo, montaña">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
       integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+      <link rel="stylesheet" href="css/animate.css">  
+      <title>Todino Birra Artesanal</title>
     <link rel="stylesheet" href="./css/estilos.css">
-    <title>Todino Birra Artesanal</title>
+    <link rel="icon" href="/img/toro.ico">
   </head>
 
   <body>
@@ -19,7 +20,7 @@
       <div class="logo">
         <a class="nav-link active" href="./index.html">
           <img class="img-fluid imgLogo" src="./img/toro.png" alt="toro"></a>
-        <h1>birra artesanal</h1>
+          <div class="wow bounceInUp"><h1>birra artesanal</h1></div>
         <h2>TODINO</h2>
       </div>
       <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -39,8 +40,7 @@
     </header>
     <main>
       <section class="container">
-        <h1>INICIO</h1>
-        <p>recetas artesanales, descubrí las variedades de esta temporada! Suscribite al newsletter para recibir las novedades</p>
+        <h1>BIENVENIDOS!</h1>        
         <div class="row-sm-5  ">
           <div class="col-sm-12">
             <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
@@ -76,7 +76,6 @@
       </div>
       <div class="logoFooter">
         <img src="./img/insta.png" alt="redessociales">
-
       </div>
     </footer>
 
@@ -89,7 +88,10 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js"
       integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous">
       </script>
-
+    <script src="js/wow.min.js"></script>
+    <script>
+    new WOW().init();
+    </script> 
   </body>
 
   </html>
