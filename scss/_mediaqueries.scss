@@ -1,21 +1,24 @@
 @media only screen and (min-width: 320px) {
     header {
         & .logo {
-        & .imgLogo {   
-            width: 20%;
+            & .imgLogo {
+                width: 20%;
+            }
         }
     }
-}
+
     body {
         & .container {
-        & .h1 {
-       font-size: 0.2rem;
-    }
-        & .media .p{
-        text-align: center;
+            & .h1 {
+                font-size: 0.2rem;
+            }
+
+            & .media .p {
+                text-align: center;
+            }
         }
-}
-}
+    }
+
     footer {
         & .logoFooter {
             & img {
@@ -23,7 +26,8 @@
             }
         }
     }
-    }
+}
+
 @media only screen and (min-width: 481px) {
     footer {
         & .logoFooter {
@@ -32,16 +36,18 @@
             }
         }
     }
- 
+
 }
+
 @media only screen and (min-width: 769px) {
     header {
         & .logo {
-        & .imgLogo{   
-            width: 20%;
-        }
+            & .imgLogo {
+                width: 20%;
+            }
         }
     }
+
     footer {
         & .textoFooter {
             & p {
@@ -54,23 +60,26 @@
 @media only screen and (min-width: 1024px) {
     header {
         & .logo {
-        & .imgLogo{   
-            width: 15%;
-        }
+            & .imgLogo {
+                width: 15%;
+            }
         }
     }
+
     .container {
-             & p {
+        & p {
             font-size: 1.5rem;
         }
     }
 }
+
 @media only screen and (min-width: 1224px) {
     .container {
-             & p {
+        & p {
             font-size: 1.5rem;
         }
     }
+
     footer {
         & .logoFooter {
             & img {

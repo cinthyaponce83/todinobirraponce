@@ -83,24 +83,23 @@ header nav ul li a {
 width:40%;
 height:40%;
 margin: 3% 0% 5% 30%;
-animation-name:cambiarTamaño;
-animation-duration:4s;
+animation-name: cambiarTamaño;
+animation-duration: 2s;
 animation-iteration-count:infinite;
 }
-
-@keyframes cambiarTamaño{
+@keyframes cambiarTamaño {
 0%{
-transform:scale(0.5);
+transform: scale(0.8);
 }
 100%{
-transform:scale(1);
+transform: scale(1);
 }
 }
 .container img {
 border-radius:0.4rem;
 }
 .container .tienda img:hover{
-  transform:scale(1.1);
+  transform:scale(1.03);
 }
 
 footer {
