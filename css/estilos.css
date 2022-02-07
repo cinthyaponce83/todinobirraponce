@@ -1,154 +1,146 @@
 header {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
 }
 header .logo, header .logo .imgLogo {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 100%;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  width:100%;
 }
 header .logo a, header .logo .imgLogo a {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
 }
 header .logo .imgLogo {
-  width: 25%;
-  margin-top: 1.5rem;
-    
+  width:25%;
+  margin-top:1.5rem;    
 }
 .logo h1 {
-text-align: center;
-font-family: monospace;
-font-size: 1.5rem;
+text-align:center;
+font-family:monospace;
+font-size:1.5rem;
 }
 .logo h2 {
-  text-align: center;
+  text-align:center;
   font-family:Arial, Helvetica, sans-serif;
-  font-size: 4rem;
-  color: black;
+  font-size:3rem;
+  color:black;
   }
   header nav {
-  height: 100%;
-  width: 100%;
+  height:100%;
+  width:100%;
 }
 header nav ul {
-  list-style-type: none;
-  background-size: auto;
-  height: 60px;
+  list-style-type:none;
+  background-size:auto;
+  height:60px;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  font-weight: bold;
-  display: flex;
-  justify-content: space-evenly;
-  margin-bottom: 1%;
-  margin-top: 2%;
+  font-weight:bold;
+  display:flex;
+  justify-content:space-evenly;
+  margin-bottom:1%;
+  margin-top:2%;
 }
 header nav ul li {
   display: inline-block;
   font-size: 25px;
 }
 header nav ul li a {
-  text-decoration: none;
-  color: white;
+  text-decoration:none;
+  color:white;
 }
 
 .container h1 {
-  margin-top: 3rem;
-  text-align: center;
-  font-family: monospace;
-  font-weight: bold;
-
+  margin-top:3rem;
+  text-align:center;
+  font-family:monospace;
+  font-weight:bold;
 }
 .container p {
   margin-top: 1rem;
   font-size: 1rem;
-  font-family: monospace;
-  
-  
+  font-family:monospace;  
 }
+
 .container h2 {
-  text-align: center;
-  font-family: monospace;
+  text-align:center;
+  font-family:monospace;
 }
 
 .container .form-group {
-  font-family: monospace;
-  margin-top: 2rem;
+  font-family:monospace;
+  margin-top:2rem;
 }
 .container .form-check {
-  font-family: monospace;
-  color: black;
-  margin-bottom: 1rem;   
+  font-family:monospace;
+  color:black;
+  margin-bottom:1rem;   
 }
 .container section article img {
-width: 40%;
-height: 40%;
+width:40%;
+height:40%;
 margin: 3% 0% 5% 30%;
-animation-name: cambiarTamaño;
-animation-duration: 4s;
-animation-iteration-count: infinite;
+animation-name:cambiarTamaño;
+animation-duration:4s;
+animation-iteration-count:infinite;
 }
 
 @keyframes cambiarTamaño{
 0%{
-  transform:scale(0.5);
+transform:scale(0.5);
 }
 100%{
-  transform:scale(1);
+transform:scale(1);
 }
-
-
-
-} 
+}
 .container img {
-border-radius: 0.4rem;
+border-radius:0.4rem;
 }
 .container .tienda img:hover{
-  transform: scale(1.1);
+  transform:scale(1.1);
 }
- 
+
 footer {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 100%;
-  margin-top: 2rem;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  width:100%;
+  margin-top:3rem;
 }
 footer .textoFooter {
-  width: 50%;
+  width:50%;
 }
 footer .textoFooter p {
-  margin-bottom: 5px;
-  margin-left: 5px;
+margin-left:5px;
 }
+
 footer .logoFooter {
-  width: 30%;
-  display: flex;
-  justify-content: flex-end;
+  width:13%;
+  display:flex;
+  justify-content:flex-end;
 }
 footer .logoFooter img {
-  width: 100%;
-  justify-content: flex-end;
-  margin-right: 5px;
+  width:100%;
+  justify-content:flex-end;
+  margin-right:5px;
+}
+footer .logoFooter .img {
+    width:20%;
 }
 
-
-  footer .logoFooter img {
-    width: 30%;
-  }
-
 * {
-  margin: 0px;
-  padding: 0px;
-  box-sizing: border-box;
+  margin:0px;
+  padding:0px;
+  box-sizing:100%;
 }
 
 body {
-  background-color: yellow;
-  background-image: linear-gradient(to top, brown, orange, yellow);
-  background-size: 100%;
+  background-color:yellow;
+  background-image:linear-gradient(to top, brown, orange, yellow);
+  background-size:100%;
 }
 
 /*# sourceMappingURL=estilos.css.map */
